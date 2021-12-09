@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Lato;
+    src: local(Lato), url(../Lato/Lato-Regular.ttf);
+}
+body {
+    font-family: Lato;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    margin-bottom: 8px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.item1 {
+    margin-right: 5px;
+    border: 2px solid black;
+}
+.item2 {
+    margin-right: 5px;
+    border: 2px solid black;
+}
+.display {
+    margin-top: 5px;
+    border-top: 2px solid black;
+    width: 100%;
+    margin-left: 5px;
+}
+.sumary {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    margin-bottom: 3px;
+}
+.displayitem1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    margin-bottom: 3px;
+}
+.displayitem2 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    margin: 3px 0px;
+}
+.value {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid gray;
+}
+.input{
+    display: table-caption;
+    width: 100%;
+    border: solid;
+    margin-right: 5px;
+}
+.page{
+    display: flex;
+}
+.form{
+    padding: 5px;
+}
